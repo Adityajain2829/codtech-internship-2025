@@ -1,35 +1,24 @@
-# 🛠️ Penetration Testing Toolkit
 
-This project delivers a modular Python toolkit for basic penetration testing. It includes:
+# AES-256 File Encryption Tool
 
-## 📦 Modules
+This tool allows you to encrypt and decrypt files using AES-256 encryption with a graphical user interface (GUI).
 
-### 1. 🔍 Port Scanner
-Scans common ports on a target IP.
+## Features
+- AES-256 encryption and decryption.
+- Password-based key generation.
+- Simple and user-friendly interface.
 
-Usage:
-```bash
-python port_scanner.py
+## Usage
+1. Run the Python script.
+2. Browse and select the file to encrypt or decrypt.
+3. Enter a strong password.
+4. Click 'Encrypt' or 'Decrypt'.
+
+## Dependencies
+Install the required libraries with:
+```
+pip install -r requirements.txt
 ```
 
-### 2. 🔓 Brute Forcer
-Performs a basic dictionary attack on login forms.
-
-Usage:
-```bash
-python brute_forcer.py
-```
-
-## 📚 Requirements
-
-- Python 3.x
-- requests
-
-Install with:
-```bash
-pip install requests
-```
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+## License
+MIT License
