@@ -1,34 +1,35 @@
-# 🔍 Web Vulnerability Scanner
+# 🛠️ Penetration Testing Toolkit
 
-This Python-based tool scans a web page for **XSS (Cross-Site Scripting)** vulnerabilities by analyzing and testing forms.
+This project delivers a modular Python toolkit for basic penetration testing. It includes:
 
-## 🚀 Features
+## 📦 Modules
 
-- Detects XSS vulnerabilities via form injection
-- Uses `requests` and `BeautifulSoup` libraries
-- Follows form actions (GET/POST) and tests inputs
-- Simple terminal-based interface
+### 1. 🔍 Port Scanner
+Scans common ports on a target IP.
 
-## 📦 Requirements
+Usage:
+```bash
+python port_scanner.py
+```
+
+### 2. 🔓 Brute Forcer
+Performs a basic dictionary attack on login forms.
+
+Usage:
+```bash
+python brute_forcer.py
+```
+
+## 📚 Requirements
 
 - Python 3.x
-- `requests`, `beautifulsoup4`
+- requests
 
 Install with:
 ```bash
-pip install requests beautifulsoup4
-```
-
-## 🔧 Usage
-
-```bash
-python web_vuln_scanner.py
-```
-
-Then enter a URL like:
-```
-http://example.com
+pip install requests
 ```
 
 ## 📄 License
+
 This project is licensed under the [MIT License](LICENSE).
