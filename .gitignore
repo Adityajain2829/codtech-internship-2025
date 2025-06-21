@@ -1,7 +1,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-file_hashes.json
 .env
 .venv
 env/
