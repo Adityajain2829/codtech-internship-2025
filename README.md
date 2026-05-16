@@ -432,14 +432,6 @@ while True:
 
 ---
 
-# Recommended GitHub Repository Name
-
-```text
-python-cybersecurity-toolkit
-```
-
----
-
 # Skills Demonstrated
 
 * Python Programming
